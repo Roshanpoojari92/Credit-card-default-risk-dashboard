@@ -65,9 +65,9 @@ This dashboard helps identify customer segments with a higher probability of def
 
 ## 📊 Dashboard Preview
 
-![Dashboard 1](https://github.com/Roshanpoojari92/credit-card-default-risk-dashboard/blob/main/Dashboard%201.jpg)
+![Dashboard 1](https://github.com/Roshanpoojari92/Credit-card-default-risk-dashboard/blob/main/Dashboard%201.jpg)
 
-![Dashboard 2](https://github.com/Roshanpoojari92/credit-card-default-risk-dashboard/blob/main/Dashboard%202.jpg)
+![Dashboard 2](https://github.com/Roshanpoojari92/Credit-card-default-risk-dashboard/blob/main/Dashboard%202.jpg)
 
 ---
 
