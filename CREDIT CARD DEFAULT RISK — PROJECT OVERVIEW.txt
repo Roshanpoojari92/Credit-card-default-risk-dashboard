@@ -1,0 +1,21 @@
+CREDIT CARD DEFAULT RISK — PROJECT OVERVIEW							
+							
+							
+About this workbook							
+This workbook analyzes 30,000 credit card clients from a Taiwanese bank (April–September 2005) to understand what drives default risk. It is built as a self-contained analytics project: raw data, a live calculation engine, and an executive dashboard, all connected by formulas so every number recalculates automatically if the underlying data changes.							
+							
+How the workbook is organized							
+Dashboard	Executive summary with KPI cards and charts — start here.						
+Summary Metrics	The calculation engine. Every chart and KPI on the Dashboard pulls from formulas here (COUNTIFS / AVERAGEIFS / SUMIFS against Raw Data).						
+Raw Data	All 30,000 client records, with the original coded columns preserved alongside human-readable labels (Sex, Education, Marital Status, Age Group, Credit Limit Tier) computed via lookup/IF formulas.						
+Data Dictionary	Definitions of every original variable, as published with the dataset.						
+							
+Key definitions used in this analysis							
+•  Default Rate = Defaults ÷ Total Clients in a group.							
+•  Age Group: Under 30 / 30-39 / 40-49 / 50-59 / 60 and over.							
+•  Credit Limit Tier: Low <NT$50K, Medium NT$50K-140K, High NT$140K-240K, Very High NT$240K+ (based on the dataset's quartile breakpoints).							
+•  Payment Status Group (Sept, most recent month): 'Paid Duly / No Delay' includes on-time payments and revolving credit (codes ≤ 0); 'Delay 1-2 Months' and 'Delay 3+ Months' follow the repayment-status scale below.							
+•  Education/Marital Status codes not defined in the original documentation (0, 5, 6 for Education; 0 for Marital Status) are grouped into 'Others'.							
+							
+Source							
+Yeh, I-Cheng. (2016). Default of Credit Card Clients [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C55S3H							
